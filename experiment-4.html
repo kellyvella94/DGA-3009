@@ -1,1 +1,125 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+
+
+    <form action="/submit-form" method="post">
+        <label for="First Name">First Name: </label>
+        <input name="First Name" type="text" placeholder="firstname">
+        <label for="Last name">Last Name: </label>
+        <input name="Last Name" type="text" placeholder="lastname">
+
+
+        <br>
+        <label for="Male">Male: </label>
+        <input id="Male" name="Register" type="radio" value="male">
+
+        <label for="Female">Female: </label>
+        <input id="Feamle" name="Register" type="radio" value="female">
+
+        <label for="Other">Other: </label>
+        <input id="Other" name="Register" type="radio" value="Other">
+
+        <br>
+
+        <label for="Email">Email: </label>
+        <input name="Email" type="text" placeholder="Email">
+        <label for="Password">Password: </label>
+        <input name="Password" type="text" placeholder="Password">
+
+        <br>
+        <label for="Birthday">Birthday: </label>
+
+        <select>
+            <option value="" disabled selected hidden>Month</option>
+            <option value="January">January</option>
+            <option value="Feburary">Feburary</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <select>
+            <option value="" disabled selected hidden>Day</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+
+        <select>
+            <option value="" disabled selected hidden>Year</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993">1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+            <option value="1990">1990</option>
+            <option value="1989">1989</option>
+            <option value="1988">1988</option>
+            <option value="1987">1987</option>
+        </select>
+        <br>
+        <label for="termsAndConditions">I agree to the terms & conditions</label>
+        <input id="termsAndConditions" type="checkbox" name="termsAndConditions" value="accepted">
+
+
+        <br>
+        <form action="http://www.google.com">
+            <input name="submit" type="submit" placeholder="submit" minlength="8">
+
+        </form>
+
+    </form>
+</body>
+
+</html>
